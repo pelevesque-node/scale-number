@@ -1,0 +1,38 @@
+{
+  "name": "@pelevesque/scale-number",
+  "version": "0.0.1",
+  "description": "Scales a number within a range.",
+  "main": "index.js",
+  "engines": {
+    "node": ">=5.0.0"
+  },
+  "scripts": {
+    "test": "standard && mocha --reporter spec",
+    "cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pelevesque/scale-number.git"
+  },
+  "keywords": [
+    "number",
+    "scale",
+    "range"
+  ],
+  "author": "Pierre-Emmanuel Lévesque <pierre.e.levesque@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pelevesque/scale-number/issues"
+  },
+  "homepage": "https://github.com/pelevesque/scale-number#readme",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "coveralls": "^3.0.1",
+    "istanbul": "^0.4.5",
+    "mocha": "^5.1.1",
+    "standard": "^11.0.1"
+  }
+}
