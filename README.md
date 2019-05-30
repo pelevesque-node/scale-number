@@ -8,7 +8,7 @@ Scales a number within a range.
 
 ## Node Repository
 
-[https://www.npmjs.com/package/@pelevesque/scale-number](https://www.npmjs.com/package/@pelevesque/scale-number)
+https://www.npmjs.com/package/@pelevesque/scale-number
 
 ## Installation
 
