@@ -1,6 +1,6 @@
 {
   "name": "@pelevesque/scale-number",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Scales a number within a range.",
   "main": "index.js",
   "engines": {
