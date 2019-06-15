@@ -36,6 +36,6 @@ const oldMin = 0
 const oldMax = 100
 const newMin = 0
 const newMax = 1000
-const number = scaleNumber(10, 0, 100, 0, 1000)
-// number === 100
+const scaledNumber = scaleNumber(number, oldMin, oldMax, newMin, newMax)
+// scaledNumber === 100
 ```
