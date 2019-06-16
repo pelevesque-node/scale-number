@@ -31,11 +31,11 @@ const scaleNumber = require('@pelevesque/scale-number')
 ```
 
 ```js
-const number = 10
-const oldMin = 0
-const oldMax = 100
-const newMin = 0
-const newMax = 1000
-const scaledNumber = scaleNumber(number, oldMin, oldMax, newMin, newMax)
-// scaledNumber === 100
+const num = 10
+const oldRangeMin = 0
+const oldRangeMax = 100
+const newRangeMin = 0
+const newRangeMax = 1000
+const result = scaleNumber(num, oldRangeMin, oldRangeMax, newRangeMin, newRangeMax)
+// result === 100
 ```
